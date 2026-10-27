@@ -1,0 +1,27 @@
+String Theology = "Theology";
+String Technology = "Technology";
+Int Earth = 1; // Creating the (flat) earth
+Int Humans = 1; //Creating the first Human being (Adam)
+Int Male = 1; // A man (Adam)
+Int Female = 0; // So far there’s no Woman
+Int Animals = undefined; // Creating many animals of different kinds
+Float Vegetation = undefined; //Creating trees, green, fruits and plants
+Int Father = 1;
+Int Jesus = 1;
+Int Holy_Spirit = 1;
+Int God = Father + Jesus + Holy Spirit = 1;
+Bool faith = false;
+Bool heaven_access = false;
+
+Theology + Technology = "Technology";
+Humans = Humans +1; //Let’s create another Human
+If (Male == 1) //If there’s Adam we can create a woman from him
+Female = Female +1; //So let’s create the first woman
+For (Humans = 2; Humans <= undefined; Humans++){ //From 2 humans to undefined
+NewHuman = Male | Female = new NewHuman(rand(Male || Female));
+}
+Jesus = Female | Holy_Spirit;
+If (Holy_Spirit == 1)
+faith = true;
+If (faith == true)
+heaven_access = true;
