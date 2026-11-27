@@ -10,7 +10,7 @@ Float Vegetation = undefined; //Creating trees, green, fruits and plants
 Int Father = 1;
 Int Jesus = 1;
 Int Holy_Spirit = 1;
-Int God = Father + Jesus + Holy Spirit = 1;
+Int God = Father + Jesus + Holy Spirit = 1; //or even better, God = Father * Jesus * Holy Spirit = 1 
 Bool faith = false;
 Bool heaven_access = false;
 
